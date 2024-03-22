@@ -3,4 +3,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def pesquisar(request):
-    print("Opa")
+    return render(request, 'loja/pesquisar.html')
